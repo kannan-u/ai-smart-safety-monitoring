@@ -107,7 +107,7 @@ python app/main.py
 Example:
 
 ```
-![Demo](screenshot.png)
+![Demo](Screenshot (497).png)
 ```
 
 ---
