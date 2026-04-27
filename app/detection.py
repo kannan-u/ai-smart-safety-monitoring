@@ -3,11 +3,12 @@ from ultralytics import YOLO
 model = YOLO("yolov8n.pt")
 
 def detect_human(frame):
-    results = model(frame)
+    results = model(frame, verbose=False)
 
-    for r in results:
-        for box in r.boxes:
+    for result in results:
+        for box in result.boxes:
             cls = int(box.cls[0])
-            if cls == 0:  # 0 = person
+            if cls == 0:  # person
                 return True
+
     return False
