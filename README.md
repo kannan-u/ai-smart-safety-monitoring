@@ -1,6 +1,6 @@
 # Smart Safety Monitoring System
 
-## 📌 Overview
+## Overview
 
 This project is a safety monitoring system designed to detect unauthorized human presence in restricted areas.
 
@@ -8,7 +8,7 @@ It combines motion-triggered logic with real-time visual detection to improve ac
 
 ---
 
-## 🎯 Problem Statement
+## Problem Statement
 
 Traditional monitoring systems often generate false alerts due to:
 
@@ -18,7 +18,7 @@ Traditional monitoring systems often generate false alerts due to:
 
 ---
 
-## 💡 Solution
+## Solution
 
 This system uses a two-step validation approach:
 
@@ -29,7 +29,7 @@ This ensures alerts are generated only for meaningful events.
 
 ---
 
-## 🧠 System Architecture
+## System Architecture
 
 ```
 Motion Trigger → Camera Capture → Human Detection → Alert API
@@ -37,7 +37,7 @@ Motion Trigger → Camera Capture → Human Detection → Alert API
 
 ---
 
-## ⚙️ Features
+## Features
 
 * Real-time camera monitoring
 * Motion-triggered processing
@@ -47,7 +47,7 @@ Motion Trigger → Camera Capture → Human Detection → Alert API
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 * Python
 * OpenCV
@@ -56,7 +56,7 @@ Motion Trigger → Camera Capture → Human Detection → Alert API
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 smart-safety-ai/
@@ -74,7 +74,7 @@ smart-safety-ai/
 
 ---
 
-## ▶️ How to Run
+## How to Run
 
 ### 1. Install dependencies
 
@@ -96,23 +96,21 @@ python app/main.py
 
 ---
 
-## 📸 Sample Output
+## Sample Output
 
-* ✅ NO ACTIVITY
-* ⚠️ MOTION DETECTED
-* 🚨 HUMAN DETECTED
+* NO ACTIVITY
+* MOTION DETECTED
+* HUMAN DETECTED
 
 (Add your screenshot here)
 
 Example:
 
-```
 ![Demo](screenshot.png)
-```
 
 ---
 
-## 🚀 Future Enhancements
+##  Future Enhancements
 
 * Integration with real sensor hardware
 * Cloud-based alert storage and monitoring
@@ -122,7 +120,7 @@ Example:
 
 ---
 
-## 🧠 Key Highlights
+## Key Highlights
 
 * Event-driven system design
 * Efficient processing using trigger-based logic
@@ -131,13 +129,13 @@ Example:
 
 ---
 
-## 📌 Author
+## Author
 
 Kannan U
 Senior Engineer | System Design & Monitoring Solutions
 
 ---
 
-## 🔗 GitHub
+## GitHub
 
-(Add your GitHub profile link here)
+https://github.com/kannan-u/ai-smart-safety-monitoring.git
